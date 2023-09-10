@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgba(24, 0, 84, 255);
+        }
+
+        .main-box {
+            width: 50vw;
+            height: 70vh;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            /* background-color: #2196F3; */
+            padding: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .box {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            position: relative;
+        }
+
+        .box img {
+            width: 20%;
+            top: 50%;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .box1 {
+            background-color: rgb(245, 244, 241);
+        }
+
+        .box2 {
+            background-color: rgb(238, 255, 0);
+        }
+
+
+        .box3 {
+            background: transparent;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+        }
+
+        .box3 .sub-box {
+            background: rgb(44, 48, 47);
+        }
+
+        .box3 .sub-box:nth-child(1) {
+            background-color: #ffffff;
+        }
+
+        .box3 .sub-box:nth-child(2) {
+            background-color: #c3e0ab;
+        }
+
+        .box3 .sub-box:nth-child(1) {
+            background-color: #888888;
+        }
+
+        .box3 .sub-box:nth-child(1) {
+            background-color: #888888;
+        }
+
+        .box3 .sub-box:nth-child(2) {
+            background-color: transparent;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+        }
+
+        .box3 .sub-box .subb-box {
+            background-color: rgb(71, 179, 173);
+        }
+
+        .box3 .subb-box:nth-child(1) {
+            background: #b71c44;
+        }
+
+        .box3 .subb-box:nth-child(2) {
+            background: #d9512b;
+        }
+
+        .box3 .subb-box:nth-child(3) {
+            background: #01a705;
+        }
+
+        .box3 .subb-box:nth-child(4) {
+            background: #a6029c;
+        }
+
+        .box4 {
+            background: transparent;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 10px;
+        }
+
+        .box4 .sub-box {
+            background-color: blue;
+        }
+
+        .box6 {
+            background: transparent;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 10px;
+        }
+
+        .box6 .sub-box {
+            background-color: blue;
+        }
+
+        .box6 .sub-box:nth-child(1) {
+            background: transparent;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .box6 .subb {
+            background-color: #352e2e;
+        }
+
+
+        .box4 .sub-box:nth-child(1),
+        .box4 .sub-box:nth-child(2) {
+            background: #2c9fe7;
+        }
+
+        .box4 .sub-box:nth-child(3) {
+            margin-right: 5px;
+        }
+
+        .box4 .sub-box:nth-child(4) {
+            margin-left: 5px;
+        }
+
+        .box4 .sub-box:nth-child(3),
+        .box4 .sub-box:nth-child(4) {
+            background: #da542e;
+        }
+
+        .box6 .sub-box:first-child .subb:nth-child(2) {
+            background: #2d8bef;
+        }
+
+        .box6 .sub-box:first-child .subb:nth-child(1) {
+            background: #d85328;
+        }
+
+        .subb-box {
+            position: relative;
+        }
+
+        .subb-box img {
+
+            width: 50%;
+        }
+
+        .sub-box {
+            position: relative;
+        }
+
+        .sub-box img {
+            width: 50%;
+        }
+
+        .box4 .sub-box:nth-child(2) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+
+        .subb {
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-box">
+        <div class="box box1" style="height: 18vh !important; position: relative ; bottom: -6vh;">
+            <img src="./pngwing.com (1).png" alt="">
+        </div>
+        <div class="box box2" style="height: 18vh !important; position: relative ; bottom: -6vh;"> <img
+                src="./pngwing.com (2).png" alt="">
+        </div>
+        <div class="box box3" style="height: 18vh !important; position: relative ; bottom: -6vh;">
+            <div class="sub-box"> <img src="./pngwing.com (3).png" alt="">
+            </div>
+            <div class="sub-box">
+                <div class="subb-box"> <img src="./pngwing.com (4).png" alt="">
+                </div>
+                <div class="subb-box"> <img src="./pngwing.com (5).png" alt="">
+                </div>
+                <div class="subb-box"> <img src="./pngwing.com (6).png" alt="">
+                </div>
+                <div class="subb-box"> <img src="./pngwing.com (7).png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="box box4" style="height: 38vh;">
+            <div class="sub-box"><img src="./pngwing.com (8).png" alt=""></div>
+            <div class="sub-box">
+                <div class="subb"><img src="./pngwing.com (9).png" alt=""></div>
+                <div class="subb"><img src="./pngwing.com (10).png" alt=""></div>
+                <div class="subb"><img src="./pngwing.com (11).png" alt=""></div>
+                <div class="subb"><img src="./pngwing.com (12).png" alt=""></div>
+            </div>
+            <div class="sub-box"><img src="./pngwing.com (13).png" alt=""></div>
+            <div class="sub-box"><img src="./pngwing.com.png" alt=""></div>
+        </div>
+        <div class="box box5" style="height: 38vh;">
+            <img src="./pngwing.com (5).png" alt="">
+        </div>
+        <div class="box box6" style="height: 38vh;">
+            <div class="sub-box">
+                <div class="subb"><img src="./pngwing.com (6).png" alt=""></div>
+                <div class="subb"><img src="./pngwing.com (7).png" alt=""></div>
+            </div>
+
+            <div class="sub-box"><img src="./pngwing.com (8).png" alt="" style="width: 30%;"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>
